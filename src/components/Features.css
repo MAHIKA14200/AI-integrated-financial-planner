@@ -1,0 +1,61 @@
+/* src/components/Features.css */
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .feature-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-image {
+    width: 100px; /* Adjust image size */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card h2 {
+    font-size: 18px; /* Adjust font size */
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 14px; /* Adjust font size */
+    color: #666;
+  }
+  
+  /* Feature Button Styles */
+  .feature-button {
+    font-size: 14px; /* Adjust font size */
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .feature-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,71 @@
+/* src/components/Login.css */
+
+/* Importing the Poppins font for a stylish look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* General body styling (only affecting login page) */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/images/Wallpaper.jpeg'); /* Wallpaper for login */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling the login container */
+.login {
+    text-align: center;
+    max-width: 400px;
+    padding: 30px;
+    border: 3px solid #8BC34A; /* Green border */
+    border-radius: 15px;
+    background-color: rgba(255, 192, 203, 0.8); /* Light pink background with opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login h2 {
+    font-size: 2em;
+    color: #4CAF50; /* Green text color */
+    margin-bottom: 25px;
+}
+
+.login input {
+    width: 90%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 2px solid #FF69B4; /* Pink border */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1em;
+}
+
+.login button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 12px 0;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+.login .error {
+    color: #FF6347; /* Red color for error */
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.login form div {
+    margin-bottom: 20px;
+}

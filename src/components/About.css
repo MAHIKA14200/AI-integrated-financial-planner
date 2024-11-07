@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@400;700&display=swap');
+
+.about {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.about h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  color: #32a852; /* Soft green color for the heading */
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.feature-section {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  border-left: 5px solid #f28ebd; /* Soft pink border for each feature */
+  padding: 20px;
+  margin: 15px;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: #32a852;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .feature-card {
+    max-width: 90%;
+  }
+
+  .feature-card h3 {
+    font-size: 20px;
+  }
+}
